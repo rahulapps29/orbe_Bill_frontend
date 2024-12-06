@@ -55,20 +55,20 @@ const ContactUs = () => {
             <div className="topic">Address</div>
             <div className="text-one"> Billing 360</div>
             <div className="text-two">
-              KD Lab, IIT Kanpur <br />
-              Kanpur, Uttar Pradesh 208016
+              5L/29 NIT Faridabad <br />
+              Haryana, India, 121001
             </div>
           </div>
           <div className="phone details">
             <FontAwesomeIcon icon={faPhoneAlt} />
             <div className="topic">Phone</div>
-            <div className="text-one">xxxxxxxxxx</div>
+            <div className="text-one">9717740080</div>
             {/* <div className="text-two">+0096 3434 5678</div> */}
           </div>
           <div className="email details">
             <FontAwesomeIcon icon={faEnvelope} />
             <div className="topic">Email</div>
-            <div className="text-one">billing360iitk@gmail.com</div>
+            <div className="text-one">rahulapps29@gmail.com</div>
             {/* <div className="text-two">info.codinglab@gmail.com</div> */}
           </div>
         </div>
