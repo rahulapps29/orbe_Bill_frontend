@@ -1,0 +1,168 @@
+#add-new-item:hover, #preview-bill:hover, #add-as-credit:hover, #generate-bill-button:hover {
+    background-color: #b3d9ff; /* Change color on hover */
+}
+
+#add-new-item:active, #preview-bill:active, #add-as-credit:active, #generate-bill-button:active {
+    background-color: #99c2ff; /* Change color on click */
+}
+
+#add-new-item, #preview-bill, #add-as-credit, #generate-bill-button {
+    background-color: #cfe8ff;
+    color: #051d40;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-family: 'Libre Baskerville', serif;
+    white-space: nowrap;
+}   
+
+.customer-notes {
+    margin-top: 20px;
+}
+  
+.customer-notes label {
+    font-weight: bold;
+    font-size: 20px;
+}
+  
+.customer-notes textarea {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 18px;
+    resize: vertical;
+}
+
+.discount-input {
+    margin-top: 20px;
+    /* margin-left: 50%; */
+    /* margin-right: 38px; */
+    padding-left: 60%;
+    font-size: 20px;
+}
+  
+.discount-input input {
+    width: 100px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+.total-amt-box {
+    font-size: 20px;
+    padding-left: 70%;
+}
+
+.bill-buttons {
+    /* position: fixed;
+    bottom: 20px;
+    right: 20px; */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    padding-right: 50px;
+}
+  
+.customer-details {
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+    margin-top: 100px;
+}
+
+#customerTable {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: left;
+    margin-left: 250px;
+    width: 200px;
+    margin-bottom: 4px;
+}
+
+.Invoice .input-box {
+    background-color: #cfe8ff;; /* Change this color to your preferred color */
+    border: 1px solid #CCCCCC; /* Add border styles if needed */
+    padding: 8px; /* Adjust padding as needed */
+    font-size: 16px; 
+    width: 400px;
+    size:auto;
+}
+
+#customerTable input[type="text"],
+#customerTable input[type="number"] {
+  border: none;
+  background-color: #cfe8ff;
+  height: 25px;
+  width: 400px;
+  font-size: 18px;
+}
+
+#invoiceTable input[type="text"],
+#invoiceTable input[type="number"] {
+  border: none;
+  height: 30px;
+  width: auto;
+  font-size: 18px;
+}
+
+.itemListContainer {
+    width: calc(100%-50px);
+    /* padding-right: 50px; */
+    padding-left: 50px;
+}
+
+#invoiceTable {
+    /* width: 50px; /* Set the table width to 100% to make it fill the container 
+    column-width: 50px; */
+    padding-top: 200px;
+    width: 96.5%; /* Set the desired width of the table */
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+#invoiceTable th,
+#invoiceTable td {
+    /* width: 50px; Allow the columns to adjust their width automatically */
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+#invoiceTable th {
+    background-color: #f2f2f2;
+}
+
+.bottom-controls {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    margin-top: 0px;
+
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Decrease brightness by changing alpha value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it appears above other elements */
+  }
+
+  /* .no-scroll {
+    touch-action: none;
+    overscroll-behavior: none;
+  } */

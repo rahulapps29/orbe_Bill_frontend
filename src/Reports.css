@@ -1,0 +1,17 @@
+.Reports #inventoryTable {
+    padding-top: 200px;
+    width: 85%; /* Set the desired width of the table */
+    border-collapse: collapse;
+    margin: 20px;
+  }
+  
+  .Reports #inventoryTable th, #inventoryTable td {
+    border: 1px solid #2a37f5;
+    padding: 8px;
+    text-align: left;
+   
+  }
+  
+  .Reports #inventoryTable th {
+    background-color: #bbeff3;
+  }

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Libre Baskerville', serif;
+}
+ .container {
+    display: flex;
+    position: fixed;
+    box-sizing: border-box;
+    top:0px;
+    left:0px;
+    height: 100%;
+}
+ .left{
+    width:240px;
+    color: white;
+    height:800px;
+}
+ .left-top-box{
+    background-color: #cfe8ff;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+}
+ .left-mid-box{
+    /* margin-top:100px; */
+    background-color:#0a305d;
+    height: 90px;
+    justify-content: left; 
+    align-items: center;
+    padding-top: 10px; 
+}
+ .mid-text{
+    margin-top: -75px;
+    margin-left: 100px;
+}
+ .nav-panel {
+    background-color:#051d40;
+    height: 100%;
+    padding-top: 20px;
+    /* padding-left: 10px; */
+}
+.nav-panel p {
+    padding-left: 10px;
+}
+ .top-panel {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    margin-left: 240px;
+    height: 100px;
+    display: flex;
+    background-color: #145da0;
+    box-sizing: border-box;
+}
+ .nav-link {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    margin-bottom: 10px;
+}
+ .main-container {
+    flex-grow: 1;
+    /* display: flex; */
+    margin-left: 240px;
+}
+ .main-left {
+    flex-grow: 1;
+    padding: 20px;
+   
+}
+ .main-right {
+    flex-grow: 1;
+    padding: 20px;
+}
+ .main-right h5{          
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+}
+ .main-right input{
+    border-bottom: black;
+}

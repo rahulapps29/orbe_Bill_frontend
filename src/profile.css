@@ -1,0 +1,107 @@
+
+
+.profile {
+  font-family: 'Libre Baskerville', serif;
+  min-height: 100vh; /* Ensure the profile page covers the entire viewport height */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  background-color: #e3eef4;
+}
+
+.main-container-profile{
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  margin-top: 130px;
+
+}
+/* profile.css */
+
+/* Button styles */
+.profile.edit-button,
+.profile.save-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px; /* Add margin between the buttons */
+}
+
+.profile.edit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.profile.save-button {
+  background-color: #008cba;
+  color: white;
+}
+
+.edit-button:hover,
+.save-button:hover {
+  opacity: 0.8;
+}
+
+
+.profile.h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.profile.profile-details {
+  background-color: #b2cfe0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  border: 2px solid #004d99;
+}
+
+.profile.h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style input fields */
+.profile input[type="text"] {
+  
+  height: 30px;
+  width: 100%;
+  
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Edit and Save button styles */
+.profile.button-group {
+  margin-top: 20px;
+}
+
+.edit-button,
+.save-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.save-button {
+  background-color: #008cba;
+  color: white;
+}
+
+.edit-button:hover,
+.save-button:hover {
+  opacity: 0.8;
+}

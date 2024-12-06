@@ -1,0 +1,97 @@
+.TransactionHistory #inventoryTable {
+    padding-top: 200px; /* Adjust the padding-top value as needed */
+    /* margin-top: 200px; */
+    width: 95%;/* Set the desired width of the table */
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.TransactionHistory .main-container{
+    padding-top: 100px;
+}
+
+.TransactionHistory #inventoryTable th, #inventoryTable td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+   
+}
+
+.TransactionHistory #inventoryTable th {
+    background-color: #f2f2f2;
+}
+/* .TransactionHistory .search-bar-container {
+    padding: 20px;
+    width: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+    width: 95%;
+}
+
+.TransactionHistory .search-bar {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 95%;
+    height: 40px;
+    background-color: #ccc;
+    font-size: 18px;
+} */
+
+/* .TransactionHistory .search-icon {
+    font-size: 24px;
+    margin-right: 10px;
+    position: absolute;
+    top: 120px;
+    left: 265px;
+
+} */
+
+.TransactionHistory .search-bar::placeholder {
+    font-size: 22px;
+    color: #888;
+    position:absolute;
+    margin-left: 0;
+}
+.TransactionHistory .add-button-container {
+    margin-top: 120px
+}
+
+.TransactionHistory .search-bar-container {
+    position: relative; /* Make the container relative to position its children */
+    padding: 20px;
+    width: 100%;
+    margin-left: 0;
+    margin-top: -10px;
+    width: 95%;
+}
+
+.TransactionHistory .search-bar {
+    padding: 8px 40px 8px 30px; /* Adjust the padding to accommodate the search icon */
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 95%;
+    height: 40px;
+    background-color: #ccc;
+    font-size: 18px;
+}
+
+.TransactionHistory .search-icon {
+    font-size: 24px;
+    position: absolute;
+    left: 30px; /* Adjust the left position to position the icon before the text */
+    top: 38px 
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Decrease brightness by changing alpha value */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Ensure it appears above other elements */
+  }

@@ -1,0 +1,228 @@
+.PendingTrans #addCreditButton {
+  background-color: #c4dcf4;
+}
+.PendingTrans .top {
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  padding-top: 100px;
+  /* margin-top: 100px; */
+}
+.PendingTrans .search-bar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+.PendingTrans .search-bar {
+  padding: 10px;
+  border: 3px solid #ccc;
+  border-radius: 30px;
+  width: 95%;
+  height: 25px;
+  background-color: #ccc;
+  font-size: 18px;
+}
+
+.PendingTrans .search-bar::placeholder {
+  font-size: 20px;
+  color: #888;
+}
+ .PendingTrans .credit {
+  font-size: 25px;
+} 
+/* .PendingTrans .TotalAmount {
+  display: flex;
+  flex-grow: 1;
+  font-size: 30px;
+  padding: 20px;
+  background-color: #89a8af;
+  height: 50px;
+  width: 170px;
+  margin-top: 20px;
+  padding-right: 50px;
+} */
+.PendingTrans .TotalAmount {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  padding: 20px;
+  background-color: rgba(81, 127, 137, 0.68);
+  height: 25px;
+  width: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow for depth */
+  color: #051d40; 
+}
+#credit-tab{
+  margin-left: 18%;
+}
+#debit-tab{
+  margin-left: 18%;
+}
+.PendingTrans .TotalAmount span {
+  margin-left: 10px; /* Add some space between the icon and text */
+}
+.PendingTrans .credit-debit-heading {
+  display: flex;
+  justify-content: center;
+
+  margin-left: 240px;
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  height: 60px;
+  margin-bottom: 30px;
+}
+
+.PendingTrans .credit-debit-heading a {
+  padding: 10px;
+  display: inline-block;
+}
+/* .PendingTrans h1 {
+  text-align: top;
+  margin-top: 1px;
+  font-size: 20px;
+  margin-block-end: 0.2em;
+  /* text-decoration: underline; 
+} */
+.PendingTrans th {
+  text-align: center;
+  padding: 10px;
+}
+.PendingTrans .First {
+  background-color: #e0e9f1;
+  padding-bottom: 10px;
+}
+.PendingTrans .Second {
+  background-color: #e0e9f1;
+  padding-bottom: 10px;
+}
+.PendingTrans .Third {
+  background-color: #e0e9f1;
+  padding-bottom: 10px;
+}
+.PendingTrans table {
+  /* border-collapse: seperate; */
+  width: 80%;
+  border: 0px solid #ddd;
+  margin-left: 240px;
+  margin-right: 10px;
+  padding-left: 50px;
+  padding-bottom: 50px;
+  border-spacing: 0px;
+}
+.PendingTrans #addCreditDialog {
+  width: 400px; /* Set the desired width */
+}
+
+.PendingTrans #addCreditDialog form {
+  padding: 20px; /* Add padding for better spacing */
+}
+
+.PendingTrans #addCreditDialog label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.PendingTrans #addCreditDialog input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.PendingTrans #addCreditDialog button {
+  padding: 10px 20px;
+  margin-right: 10px;
+}
+
+.PendingTrans .add-credit-button {
+  background-color: #e5f2ff;
+  border-radius: 10px; /* Adjust the value for the desired rounded corner radius */
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer; /* Add cursor style for better indication of clickability */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+
+  /* Optional: Add box-shadow for a subtle effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.PendingTrans #add-new {
+  background-color: #88b9e9;
+  border-radius: 10px; /* Adjust the value for the desired rounded corner radius */
+  padding: 10px 20px; /* Adjust padding as needed */
+  cursor: pointer; /* Add cursor style for better indication of clickability */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+
+  /* Optional: Add box-shadow for a subtle effect */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.PendingTrans #add-credit-button:hover {
+  background-color: #b3d9ff; /* Change color on hover */
+}
+
+.PendingTrans #add-credit-button:active {
+  background-color: #99c2ff; /* Change color on click */
+}
+
+.PendingTrans th,
+td {
+  text-align: left;
+  padding: 16px;
+  /* padding-left:50px; */
+}
+.PendingTrans .heading {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-top: 50px;
+  font-size: 40px;
+  margin-left: 0px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.PendingTrans .active-tablinks {
+  flex-grow: 1;
+  background-color: #179151;
+  height: 60px;
+}
+
+.PendingTrans .tablinks {
+  flex-grow: 1;
+  background-color: #d9d9d9;
+  height: 60px;
+}
+
+.PendingTrans .tabcontent-active {
+  display: block;
+}
+
+.PendingTrans .tabcontent {
+  display: none;
+}
+.PendingTrans #inventoryTable {
+  padding-top: 200px;
+  width: 95%; /* Set the desired width of the table */
+  border-collapse: collapse;
+  margin: 20px;
+}
+
+.PendingTrans #inventoryTable th, #inventoryTable td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+  text-align: left;
+ 
+}
+
+.PendingTrans #inventoryTable th {
+  background-color: #f2f2f2;
+}

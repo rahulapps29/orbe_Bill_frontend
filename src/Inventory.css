@@ -1,0 +1,148 @@
+.Inventory .add-item-button {
+    background-color: #cfe8ff;
+    color: #051d40;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-left: 20px;
+    font-family: 'Libre Baskerville', serif;
+    
+}
+.Inventory .add-button-container {
+    margin-top: 120px
+}
+.Inventory .top {
+    justify-content: center; /* Center horizontally */
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+    display: flex;
+}
+
+.Inventory .search-bar-container {
+    position: relative; /* Make the container relative to position its children */
+    padding: 10px;
+    width: 100%;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.Inventory .search-bar {
+    /* padding: 8px 40px 8px 30px; */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 95%;
+    height: 30px;
+    background-color: #ccc;
+    font-size: 18px;
+    padding-left: 31px;
+}
+
+
+.Inventory .search-icon {
+    font-size: 24px;
+    position: absolute;
+    left: 25px;
+    top: 23px;
+
+}
+
+.Inventory .search-bar::placeholder {
+    font-size: 22px;
+    color: #888;
+    position:absolute;
+    margin-left: 35px;
+}
+.Inventory .circle {
+    width: 50px; /* Diameter is twice the radius */
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 50%;
+    position: absolute;
+    right: 12px;
+    top: 212px;
+    transform: translateY(-50%);
+}
+th.Inventory{
+    width: auto; /* Set equal width for each heading column */
+    text-align: center;
+    padding: 10px;
+}
+table.Inventory {
+    border-collapse:seperate;
+    width: 95%;
+    border: 1px solid #ddd;
+    margin-left:35px;
+    margin-right:10px;
+    padding-left:55px;
+    border-spacing: 0 15px;
+}
+.action-button {
+    cursor: pointer;
+    color: #ba3726; /* Green color, change as needed */
+    margin-right: 10px; /* Adjust spacing between buttons */
+    text-decoration: underline;
+  }
+th.Inventory, td.Inventory {
+
+    text-align: left;
+    padding: 16px;
+}
+#addItemDialog {
+    align-items: center;
+    width: 800px; /* Set the desired width */
+    height: 400px;
+}
+
+ #addItemDialog form {
+    padding: 20px; /* Add padding for better spacing */
+}
+ .Inventory #addItemDialog table {
+    /* padding-right: 100px; */
+    border: none;
+
+}
+ #addItemDialog label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+#addItemDialog input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#addItemDialog button {
+    padding: 10px 20px;
+    margin-left: 200px;
+}
+
+ .add-item-button:hover {
+    background-color: #b3d9ff; /* Change color on hover */
+}
+
+ .add-item-button:active {
+    background-color: #99c2ff; /* Change color on click */
+}
+.Inventory #inventoryTable {
+    padding-top: 200px;
+    width: 95%; /* Set the desired width of the table */
+    border-collapse: collapse;
+    margin: 20px;
+}
+
+.Inventory #inventoryTable th, #inventoryTable td {
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+   
+}
+
+.Inventory #inventoryTable th {
+    background-color: #f2f2f2;
+}
